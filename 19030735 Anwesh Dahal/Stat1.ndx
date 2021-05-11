@@ -1,0 +1,37 @@
+ |CONFIG:Edinburgh Network.Edinburgh Link:BusyLevelX:1|      199
+ |CONFIG:Edinburgh Network.Edinburgh Link:tokendelayX:1|      407
+ |Msg:Edinburgh Network.Edinburgh ATM Processing Server:Edinburgh ATM SVR MSG RESP::ECHO:transcmdtokendly:1|      609
+ |Msg:Edinburgh Network.Edinburgh ATM Processing Server:Edinburgh ATM SVR MSG RESP::ECHO:transcmddelivered:1|      910
+ |CONFIG:Itahari Network.Itahari Link:BusyLevelX:1|     1212
+ |CONFIG:Itahari Network.Itahari Link:BusyLevelY:1|     1412
+ |CONFIG:Itahari Network.Itahari Link:tokendelayX:1|     1612
+ |CONFIG:Itahari Network.Itahari Link:tokendelayY:1|     1806
+ |Msg:Itahari Network.Itahari ATM Group:Itahari ATM MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmdtokendly:1|     2000
+ |Msg:Itahari Network.Itahari ATM Group:Itahari ATM MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmddelivered:1|     2343
+ |Msg:Itahari Network.Itahari Teller:Itahari Teller MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmdtokendly:1|     2687
+ |Msg:Itahari Network.Itahari Teller:Itahari Teller MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmddelivered:1|     3030
+ |CONFIG:Butwal Network.Butwal Link:BusyLevelX:1|     3374
+ |CONFIG:Butwal Network.Butwal Link:BusyLevelY:1|     3570
+ |CONFIG:Butwal Network.Butwal Link:tokendelayX:1|     3766
+ |CONFIG:Butwal Network.Butwal Link:tokendelayY:1|     3956
+ |Msg:Butwal Network.Butwal ATM Group:Butwal ATM MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmdtokendly:1|     4146
+ |Msg:Butwal Network.Butwal ATM Group:Butwal ATM MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmddelivered:1|     4483
+ |Msg:Butwal Network.Butwal Teller:Butwal Teller MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmdtokendly:1|     4821
+ |Msg:Butwal Network.Butwal Teller:Butwal Teller MSG REQ:Edinburgh Network.Edinburgh ATM Processing Server:transcmddelivered:1|     5158
+ |CONFIG:WAN Cloud.Edinburgh Access Link:BusyLevelX:1|     5496
+ |CONFIG:WAN Cloud.Edinburgh Access Link:BusyLevelY:1|     5702
+ |CONFIG:WAN Cloud.Edinburgh Access Link:OutBufferLevel:1|     5908
+ |CONFIG:WAN Cloud.Butwal Access Link:BusyLevelX:1|     6127
+ |CONFIG:WAN Cloud.Butwal Access Link:BusyLevelY:1|     6327
+ |CONFIG:WAN Cloud.Butwal Access Link:OutBufferLevel:1|     6527
+ |CONFIG:WAN Cloud.Itahari Access Link:BusyLevelX:1|     6740
+ |CONFIG:WAN Cloud.Itahari Access Link:BusyLevelY:1|     6942
+ |CONFIG:WAN Cloud.Itahari Access Link:OutBufferLevel:1|     7144
+ |CLDVC:WAN Cloud:Edinburgh - Butwal:FrmDelay:1|     7359
+ |CLDVC:WAN Cloud:Edinburgh - Butwal:Burst:1|     7548
+ |CLDVC:WAN Cloud:Butwal - Edinburgh:FrmDelay:1|     7734
+ |CLDVC:WAN Cloud:Butwal - Edinburgh:Burst:1|     7923
+ |CLDVC:WAN Cloud:Itahari-Edinburgh:FrmDelay:1|     8109
+ |CLDVC:WAN Cloud:Itahari-Edinburgh:Burst:1|     8296
+ |CLDVC:WAN Cloud:Edinburgh - Itahari:FrmDelay:1|     8480
+ |CLDVC:WAN Cloud:Edinburgh - Itahari:Burst:1|     8671
